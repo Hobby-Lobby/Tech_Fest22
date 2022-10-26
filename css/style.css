@@ -34,9 +34,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
   color: #444444;
+  background-color: #000000;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -44,7 +46,7 @@ body, html {
 
 a {
   color: #111111;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 a:hover {
@@ -55,46 +57,63 @@ a,
 a:hover,
 button,
 button:focus {
-  transition: all .3s;
+  transition: all 0.3s;
   text-decoration: none;
   outline: 0;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   font-weight: 700;
   color: #111111;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 48px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 36px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 26px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 22px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 16px;
 }
 
@@ -187,11 +206,11 @@ Common
   line-height: 1;
   padding: 16px 32px;
   box-shadow: 0 11px 22px rgba(34, 34, 34, 0.2);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   will-change: box-shadow;
   font-size: 13px;
   border-radius: 0px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   border: 2px solid transparent;
   font-weight: 700;
@@ -279,7 +298,7 @@ header
 }
 
 .main-nav {
-  transition: all .7s linear;
+  transition: all 0.7s linear;
 }
 
 .main-nav .nav-link {
@@ -289,7 +308,7 @@ header
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #111111;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .btn-sm {
@@ -301,8 +320,8 @@ header
   .top-nav-collapse {
     text-shadow: none;
     border-color: transparent;
-    background-color: #ffffff;
-    transition: all .2s ease;
+    background-color: #000000;
+    transition: all 0.2s ease;
   }
 }
 
@@ -334,7 +353,7 @@ header
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
-  transition: all .15s ease-out;
+  transition: all 0.15s ease-out;
   display: block;
   padding: 0px !important;
 }
@@ -398,7 +417,7 @@ header
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 
@@ -415,7 +434,7 @@ banner
 .section-banner {
   min-height: 700px;
   position: relative;
-  background: #eee;
+  background: rgb(0, 0, 0);
   background-repeat: no-repeat;
   background-position: 65% 50%;
   background-size: cover;
@@ -424,7 +443,7 @@ banner
 .section-banner .banner-content h1 {
   font-size: 100px;
   line-height: 1.2;
-  letter-spacing: -.04em;
+  letter-spacing: -0.04em;
 }
 
 @media (max-width: 991px) {
@@ -496,7 +515,7 @@ About
   .about-img .img-block {
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     width: 80%;
     bottom: -20px;
   }
@@ -557,7 +576,7 @@ inner pages
   width: 100%;
   height: 100%;
   background: #4125dd;
-  opacity: .90;
+  opacity: 0.9;
 }
 
 #faqs h4 {
@@ -620,7 +639,7 @@ Features
 .feature-box {
   padding: 40px;
   background: #f8f9fa;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .feature-box i {
@@ -698,7 +717,7 @@ Features
 .feature-item {
   padding: 40px;
   background: #f8f9fa;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .feature-item i {
@@ -914,7 +933,7 @@ Schedule
 .nav-pills .nav-link {
   border-radius: 0px;
   padding: 20px 30px;
-  transition: all .45s ease;
+  transition: all 0.45s ease;
 }
 
 .nav-pills .nav-link.active {
@@ -941,8 +960,8 @@ Schedule
   position: absolute;
   bottom: -18px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  transition: .3s;
+  transform: translateY(-50%);
+  transition: 0.3s;
   left: 80px;
   margin: auto;
   z-index: -1;
@@ -1070,8 +1089,8 @@ Sponsors
   border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 20px;
   text-align: center;
-  opacity: .7;
-  transition: all .45s ease-in-out;
+  opacity: 0.7;
+  transition: all 0.45s ease-in-out;
 }
 
 .client-item a {
@@ -1225,7 +1244,7 @@ Countdown
 Blog
 -------------------------------*/
 .blog-article {
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .blog-article .read-more i {
